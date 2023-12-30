@@ -1,11 +1,8 @@
-# Fullstack Discord Clone: Next.js 13, React, Socket.io, Prisma, Tailwind, MySQL | Full Course 2023
-
-![Copy of Copy of Copy of Fullstack Twitter Clone (5)](https://github.com/AntonioErdeljac/next13-discord-clone/assets/23248726/14e25e4f-eb83-44dd-8b97-4f2666b89386)
+# Discord Clone: Next.js, React, Socket.io, Prisma, Tailwind, MySQL
 
 
-This is a repository for Fullstack Discord Clone: Next.js 13, React, Socket.io, Prisma, Tailwind, MySQL | Full Course 2023
 
-[VIDEO TUTORIAL](https://www.youtube.com/watch?v=ZbX4Ok9YX94)
+This is a repository for Discord Clone: Next.js, React, Socket.io, Prisma, Tailwind, MySQL
 
 Features:
 
@@ -34,7 +31,7 @@ Features:
 ### Cloning the repository
 
 ```shell
-git clone https://github.com/AntonioErdeljac/next13-discord-clone.git
+git clone https://github.com/Ritik2712/Discord-Clone/
 ```
 
 ### Install packages
@@ -67,7 +64,7 @@ NEXT_PUBLIC_LIVEKIT_URL=
 
 ### Setup Prisma
 
-Add MySQL Database (I used PlanetScale)
+Add MySQL Database
 
 ```shell
 npx prisma generate
@@ -80,11 +77,3 @@ npx prisma db push
 ```shell
 npm run dev
 ```
-
-## Available commands
-
-Running commands with npm `npm run [command]`
-
-| command         | description                              |
-| :-------------- | :--------------------------------------- |
-| `dev`           | Starts a development instance of the app |
